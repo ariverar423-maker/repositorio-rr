@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html lang="es">
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+  <meta content="#070b14" name="theme-color"/>
+  <title>
+   RR Studio | Inteligencia artificial
+  </title>
+  <link href="https://fonts.googleapis.com" rel="preconnect"/>
+  <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&amp;family=Space+Grotesk:wght@400;500;600;700&amp;display=swap" rel="stylesheet"/>
+  <link href="estilos.css" rel="stylesheet"/>
+  <script defer="" src="script.js">
+  </script>
+ </head>
+ <body class="paginaServicio paginaIA">
+  <header class="barra">
+   <a class="marca" href="index.html">
+    <span class="marcaIcono">
+     R
+     <span>
+      R
+     </span>
+    </span>
+    <span>
+     RR STUDIO
+     <small>
+      DESARROLLO DIGITAL
+     </small>
+    </span>
+   </a>
+   <button aria-controls="menu" aria-expanded="false" aria-label="Abrir men&uacute;" class="menuBoton" id="menuBoton" type="button">
+    ☰
+   </button>
+   <nav aria-label="Navegaci&oacute;n principal" class="menu" id="menu">
+    <a href="inicio.html">
+     Inicio
+    </a>
+    <a href="nosotros.html">
+     Nosotros
+    </a>
+    <a href="servicios.html">
+     Servicios
+    </a>
+    <a href="clientes.html">
+     Proyectos
+    </a>
+    <a href="contacto.html">
+     Contacto
+    </a>
+    <details class="menuMas">
+     <summary class="activo">
+      Explorar
+     </summary>
+     <div class="menuMasLista">
+      <a href="web.html">
+       Desarrollo web
+      </a>
+      <a href="movil.html">
+       Desarrollo m&oacute;vil
+      </a>
+      <a href="ia.html">
+       Inteligencia artificial
+      </a>
+      <a href="trabaja.html">
+       Trabaja con nosotros
+      </a>
+      <a href="admin.html">
+       Panel de administraci&oacute;n demo
+      </a>
+     </div>
+    </details>
+   </nav>
+  </header>
+  <main>
+   <section class="servicioHero contenedor iaHero">
+    <div class="servicioHeroTexto">
+     <p class="etiqueta">
+      <span class="puntoVivo">
+      </span>
+      05 / INTELIGENCIA ARTIFICIAL
+     </p>
+     <p class="sobrelinea">
+      TECNOLOG&Iacute;A CON PROP&Oacute;SITO
+     </p>
+     <h1>
+      Herramientas &uacute;tiles.
+      <br/>
+      Mejores
+      <em>
+       decisiones.
+      </em>
+     </h1>
+     <p class="heroDescripcion">
+      Analizamos tareas concretas en las que la automatizaci&oacute;n y las herramientas inteligentes pueden ahorrar tiempo, ordenar informaci&oacute;n y apoyar el trabajo diario.
+     </p>
+     <div class="heroAcciones">
+      <a class="boton botonCian" href="#demoRR">
+       Prueba el asistente
+       <span>
+        
+       </span>
+      </a>
+      <a class="enlaceFlecha" href="#usosIA">
+       Explorar posibilidades 
+      </a>
+     </div>
+     <div class="heroMiniDatos">
+      <span>
+       <b>
+        01
+       </b>
+       Automatizaci&oacute;n
+      </span>
+      <span>
+       <b>
+        02
+       </b>
+       An&aacute;lisis de informaci&oacute;n
+      </span>
+      <span>
+       <b>
+        03
+       </b>
+       Asistencia digital
+      </span>
+     </div>
+    </div>
+    <div class="iaVisual iaVisualPractica">
+     <div class="iaPanelTrabajo">
+      <div class="iaPanelCabecera">
+       <span class="iaPuntoPanel">
+       </span>
+       <span>
+        RR / FLUJO DE TRABAJO
+       </span>
+       <small>
+        VISTA DE EJEMPLO
+       </small>
+      </div>
+      <h2>
+       Una herramienta
+       <br/>
+       para cada
+       <em>
+        necesidad.
+       </em>
+      </h2>
+      <p class="iaPanelDescripcion">
+       Explora ejemplos sencillos de tareas que la tecnolog&iacute;a puede apoyar.
+      </p>
+      <div class="iaTareas">
+       <button data-ia-ejemplo="organizar" type="button">
+        <span>
+         01
+        </span>
+        <span>
+         <b>
+          Organizar tareas
+         </b>
+         <small>
+          Clasificar informaci&oacute;n y pendientes
+         </small>
+        </span>
+        <i>
+         
+        </i>
+       </button>
+       <button data-ia-ejemplo="resumir" type="button">
+        <span>
+         02
+        </span>
+        <span>
+         <b>
+          Resumir informaci&oacute;n
+         </b>
+         <small>
+          Encontrar los puntos principales
+         </small>
+        </span>
+        <i>
+         
+        </i>
+       </button>
+       <button data-ia-ejemplo="consultar" type="button">
+        <span>
+         03
+        </span>
+        <span>
+         <b>
+          Responder consultas
+         </b>
+         <small>
+          Orientar sobre preguntas frecuentes
+         </small>
+        </span>
+        <i>
+         
+        </i>
+       </button>
+      </div>
+      <div aria-live="polite" class="iaEjemploResultado" id="iaEjemploResultado" role="status">
+       Selecciona una tarea para ver un ejemplo.
+      </div>
+     </div>
+    </div>
+   </section>
+   <section class="bloque contenedor" id="usosIA">
+    <div class="seccionIntro">
+     <div>
+      <p class="etiqueta">
+       &iquest;QU&Eacute; PUEDE APORTAR?
+      </p>
+      <h2>
+       La tecnolog&iacute;a funciona mejor
+       <br/>
+       cuando tiene
+       <em>
+        un prop&oacute;sito.
+       </em>
+      </h2>
+     </div>
+     <p>
+      La IA no es una soluci&oacute;n m&aacute;gica: necesita una tarea concreta, informaci&oacute;n apropiada y revisi&oacute;n humana.
+     </p>
+    </div>
+    <div class="iaUsos">
+     <article>
+      <span class="iaUsoIcono">
+       &orarr;
+      </span>
+      <div>
+       <p class="etiqueta">
+        01 / EFICIENCIA
+       </p>
+       <h3>
+        Automatizar tareas
+       </h3>
+       <p>
+        Apoyar procesos repetitivos para dedicar m&aacute;s tiempo a decisiones y trabajo creativo.
+       </p>
+      </div>
+      <span class="iaUsoFlecha">
+       
+      </span>
+     </article>
+     <article>
+      <span class="iaUsoIcono">
+       &telrec;
+      </span>
+      <div>
+       <p class="etiqueta">
+        02 / INFORMACI&Oacute;N
+       </p>
+       <h3>
+        Encontrar patrones
+       </h3>
+       <p>
+        Resumir o explorar grandes cantidades de informaci&oacute;n con criterios definidos.
+       </p>
+      </div>
+      <span class="iaUsoFlecha">
+       
+      </span>
+     </article>
+     <article>
+      <span class="iaUsoIcono">
+       ✧
+      </span>
+      <div>
+       <p class="etiqueta">
+        03 / ASISTENCIA
+       </p>
+       <h3>
+        Orientar a las personas
+       </h3>
+       <p>
+        Crear interfaces conversacionales que ayuden a resolver dudas frecuentes.
+       </p>
+      </div>
+      <span class="iaUsoFlecha">
+       
+      </span>
+     </article>
+    </div>
+    <div class="iaNota">
+     <span>
+      ⓘ
+     </span>
+     <p>
+      <b>
+       Uso responsable:
+      </b>
+      los resultados de sistemas de IA deben revisarse. La privacidad, la transparencia y la supervisi&oacute;n humana siguen siendo importantes.
+     </p>
+    </div>
+   </section>
+   <section class="bloque fondoPanel" id="demoRR">
+    <div class="contenedor iaDemoLayout">
+     <div class="iaDemoIntro">
+      <p class="etiqueta">
+       EXPERIMENTA CON RR
+      </p>
+      <h2>
+       Tu gu&iacute;a para
+       <br/>
+       explorar el
+       <em>
+        sitio.
+       </em>
+      </h2>
+      <p>
+       Haz preguntas sobre las secciones de RR y descubre qu&eacute; encontrar&aacute;s en cada una. Este asistente utiliza respuestas programadas; no se conecta a un modelo externo.
+      </p>
+      <div class="iaDemoPuntos">
+       <span>
+        &checkmark; Explica las p&aacute;ginas
+       </span>
+       <span>
+        &checkmark; Orienta por los servicios
+       </span>
+       <span>
+        &checkmark; Aclara qu&eacute; partes son demostrativas
+       </span>
+      </div>
+      <div class="iaDemoBadge">
+       <span>
+        ●
+       </span>
+       DEMOSTRACI&Oacute;N INTERACTIVA
+      </div>
+     </div>
+     <div class="demoAsistente demoAsistenteNuevo">
+      <div class="asistenteCabecera">
+       <span class="icono">
+        &target;
+       </span>
+       <div>
+        <b>
+         Gu&iacute;a de RR
+        </b>
+        <small>
+         GU&Iacute;A DIGITAL &middot; RESPUESTAS PROGRAMADAS
+        </small>
+       </div>
+       <i>
+       </i>
+      </div>
+      <div class="mensajes" id="mensajesIA">
+       <div class="mensaje bot">
+        &iexcl;Hola! 👋 Soy la gu&iacute;a digital de RR. Puedo contarte qu&eacute; hay en cada secci&oacute;n o ayudarte a explorar los proyectos. &iquest;Por d&oacute;nde empezamos?
+       </div>
+      </div>
+      <div class="guiaIA">
+       <p>
+        PREGUNTAS PARA EMPEZAR
+       </p>
+       <div class="preguntasRapidas">
+        <button data-pregunta="&iquest;Qu&eacute; hay en Inicio?" type="button">
+         Inicio
+        </button>
+        <button data-pregunta="&iquest;Qu&eacute; hay en Servicios?" type="button">
+         Servicios
+        </button>
+        <button data-pregunta="&iquest;Qu&eacute; hay en Desarrollo web?" type="button">
+         Web
+        </button>
+        <button data-pregunta="&iquest;Qu&eacute; hay en Desarrollo m&oacute;vil?" type="button">
+         M&oacute;vil
+        </button>
+        <button data-pregunta="&iquest;Qu&eacute; hay en Proyectos?" type="button">
+         Proyectos
+        </button>
+        <button data-pregunta="&iquest;Qu&eacute; hace el Panel de administraci&oacute;n?" type="button">
+         Panel admin
+        </button>
+       </div>
+      </div>
+      <form class="formAsistente" id="formIA">
+       <input aria-label="Escribe tu pregunta" autocomplete="off" id="entradaIA" placeholder="Pregunta algo sobre RR&hellip;"/>
+       <button aria-label="Enviar mensaje">
+        
+       </button>
+      </form>
+      <p class="nota">
+       No escribas datos personales. Esta maqueta no env&iacute;a informaci&oacute;n a una IA externa.
+      </p>
+     </div>
+    </div>
+   </section>
+  </main>
+  <section class="rr-universo" aria-label="INNOVACIÓN RESPONSABLE">
+   <div class="rr-universo-head">
+    <div><span class="rr-eyebrow">INNOVACIÓN RESPONSABLE</span><h2>Inteligencia que<br/>abre posibilidades.</h2></div>
+    <p>Exploramos herramientas de inteligencia artificial como apoyo para aprender, crear, analizar y automatizar tareas.</p>
+   </div>
+   <div class="rr-feature-grid">
+    <article class="rr-feature-card"><img class="rr-feature-image" src="https://images.unsplash.com/photo-1677442136019-21780ecad995?auto=format&fit=crop&w=720&q=80" alt="Visualización de inteligencia artificial" loading="lazy"/><span class="rr-feature-icon" aria-hidden="true">✳</span><h3>Ideas en menos tiempo</h3><p>La IA puede ayudar a organizar información y generar primeros borradores que luego revisamos.</p><span class="rr-feature-tag">01 / ASISTENCIA</span></article>
+    <article class="rr-feature-card"><img class="rr-feature-image" src="https://images.unsplash.com/photo-1485827404703-89b55fcc595e?auto=format&fit=crop&w=720&q=80" alt="Robot tecnológico" loading="lazy"/><span class="rr-feature-icon" aria-hidden="true">⌘</span><h3>Tareas más ordenadas</h3><p>Identificamos procesos repetitivos que pueden simplificarse con herramientas digitales.</p><span class="rr-feature-tag">02 / AUTOMATIZACIÓN</span></article>
+    <article class="rr-feature-card"><img class="rr-feature-image" src="https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&w=720&q=80" alt="Red tecnológica global" loading="lazy"/><span class="rr-feature-icon" aria-hidden="true">◈</span><h3>La tecnología con responsabilidad</h3><p>Verificamos resultados, cuidamos los datos y mantenemos el criterio humano en las decisiones.</p><span class="rr-feature-tag">03 / CRITERIO</span></article>
+   </div>
+  </section>
+  <footer class="pie">
+   <a class="marca" href="index.html">
+    <span class="marcaIcono">
+     R
+     <span>
+      R
+     </span>
+    </span>
+    <span>
+     RR STUDIO
+     <small>
+      DESARROLLO DIGITAL
+     </small>
+    </span>
+   </a>
+   <p>
+    Desarrollo de software y soluciones digitales.
+   </p>
+   <div>
+    <a href="servicios.html">
+     Servicios
+    </a>
+    <a href="clientes.html">
+     Proyectos
+    </a>
+    <a href="contacto.html">
+     Contacto
+    </a>
+   </div>
+   <small>
+    &copy; 2026 RR Studio &middot; Proyecto educativo demostrativo
+   </small>
+  </footer>
+ </body>
+</html>
+

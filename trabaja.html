@@ -1,137 +1,480 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hoja de Vida</title>
-    <link rel="stylesheet" href="dores.css">
-</head>
-<body>
-
-    <div class="tarjeta">
-        
-        <div class="cabecera">
-            <h2 class="titulo">HOJA DE VIDA</h2>
-            <p class="subtitulo">Formulario de Registro e Información Profesional</p>
-        </div>
-
-        <form id="miFormulario" class="formulario">
-            
-   
-            <div class="seccion">
-                <h3 class="subtitulo-seccion">1. Datos Personales</h3>
-                
-                <div class="caja">
-                    <label for="nombre" class="etiqueta">Nombre Completo *</label>
-                    <input type="text" id="nombre" class="input" placeholder="Ej. David Rivera">
-                    <span class="alerta-error" id="errorNombre">Escribe tu nombre completo.</span>
-                </div>
-
-                <div class="bloque">
-                    <div class="caja">
-                        <label for="documento" class="etiqueta">Documento de Identidad *</label>
-                        <input type="text" id="documento" class="input" placeholder="1012345678">
-                        <span class="alerta-error" id="errorDocumento">Escribe tu documento.</span>
-                    </div>
-
-                    <div class="caja">
-                        <label for="fechaNac" class="etiqueta">Fecha de Nacimiento</label>
-                        <input type="date" id="fechaNac" class="input">
-                    </div>
-                </div>
-
-                <div class="bloque">
-                    <div class="caja">
-                        <label for="telefono" class="etiqueta">Teléfono / Celular *</label>
-                        <input type="text" id="telefono" class="input" placeholder="300 123 4567">
-                        <span class="alerta-error" id="errorTelefono">Escribe tu teléfono.</span>
-                    </div>
-
-                    <div class="caja">
-                        <label for="correo" class="etiqueta">Correo Electrónico *</label>
-                        <input type="email" id="correo" class="input" placeholder="correo@ejemplo.com">
-                        <span class="alerta-error" id="errorCorreo">Escribe un correo válido.</span>
-                    </div>
-                </div>
-
-                <div class="bloque">
-                    <div class="caja">
-                        <label for="ciudad" class="etiqueta">Ciudad de Residencia</label>
-                        <input type="text" id="ciudad" class="input" placeholder="Ej. Bogotá">
-                    </div>
-
-                    <div class="caja">
-                        <label for="direccion" class="etiqueta">Dirección</label>
-                        <input type="text" id="direccion" class="input" placeholder="Calle / Carrera...">
-                    </div>
-                </div>
-            </div>
-
-           
-            <div class="seccion">
-                <h3 class="subtitulo-seccion">2. Perfil y Formación</h3>
-                
-                <div class="bloque">
-                    <div class="caja">
-                        <label for="escolaridad" class="etiqueta">Nivel Académico</label>
-                        <select id="escolaridad" class="input">
-                            <option value="bachiller">Bachiller / Estudiante</option>
-                            <option value="tecnico">Técnico / Tecnólogo</option>
-                            <option value="universitario">Pregrado / Universitario</option>
-                            <option value="postgrado">Postgrado / Maestría</option>
-                        </select>
-                    </div>
-
-                    <div class="caja">
-                        <label for="rol" class="etiqueta">Especialidad u Ocupación</label>
-                        <select id="rol" class="input">
-                            <option value="desarrollador">Desarrollador Web</option>
-                            <option value="multimedia">Ingeniero / Diseñador Multimedia</option>
-                            <option value="gamedev">Desarrollador de Videojuegos</option>
-                            <option value="otro">Otro</option>
-                        </select>
-                    </div>
-                </div>
-
-                <div class="bloque">
-                    <div class="caja">
-                        <label for="ingles" class="etiqueta">Nivel de Inglés</label>
-                        <select id="ingles" class="input">
-                            <option value="basico">Básico (A1 - A2)</option>
-                            <option value="intermedio">Intermedio (B1 - B2)</option>
-                            <option value="avanzado">Avanzado (C1 - C2)</option>
-                        </select>
-                    </div>
-
-                    <div class="caja">
-                        <label for="disponibilidad" class="etiqueta">Disponibilidad para Viajar</label>
-                        <select id="disponibilidad" class="input">
-                            <option value="no">No disponible</option>
-                            <option value="si">Sí disponible</option>
-                        </select>
-                    </div>
-                </div>
-
-                <div class="caja">
-                    <label for="perfil" class="etiqueta">Resumen del Perfil Profesional *</label>
-                    <textarea id="perfil" class="input" rows="4" placeholder="Describe brevemente tus habilidades, intereses y experiencia..."></textarea>
-                    <span class="alerta-error" id="errorPerfil">Escribe algo sobre tu perfil.</span>
-                </div>
-            </div>
-
-            <button type="submit" class="boton">Guardar Hoja de Vida</button>
-
-            <div class="alerta-exito" id="alertaExito">
-                ¡Hoja de Vida guardada con éxito!
-            </div>
-        </form>
-
-        <div class="pie">
-            <a href="index.html" class="enlace">Volver al Inicio</a>
-        </div>
-
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+  <meta content="#070b14" name="theme-color"/>
+  <title>
+   RR Studio | Trabaja con nosotros
+  </title>
+  <link href="https://fonts.googleapis.com" rel="preconnect"/>
+  <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&amp;family=Space+Grotesk:wght@400;500;600;700&amp;display=swap" rel="stylesheet"/>
+  <link href="estilos.css" rel="stylesheet"/>
+  <script defer="" src="script.js">
+  </script>
+ </head>
+ <body class="paginaServicio paginaTrabaja">
+  <header class="barra">
+   <a class="marca" href="index.html">
+    <span class="marcaIcono">
+     R
+     <span>
+      R
+     </span>
+    </span>
+    <span>
+     RR STUDIO
+     <small>
+      DESARROLLO DIGITAL
+     </small>
+    </span>
+   </a>
+   <button aria-controls="menu" aria-expanded="false" aria-label="Abrir men&uacute;" class="menuBoton" id="menuBoton" type="button">
+    ☰
+   </button>
+   <nav aria-label="Navegaci&oacute;n principal" class="menu" id="menu">
+    <a href="inicio.html">
+     Inicio
+    </a>
+    <a href="nosotros.html">
+     Nosotros
+    </a>
+    <a href="servicios.html">
+     Servicios
+    </a>
+    <a href="clientes.html">
+     Proyectos
+    </a>
+    <a href="contacto.html">
+     Contacto
+    </a>
+    <details class="menuMas">
+     <summary class="activo">
+      Explorar
+     </summary>
+     <div class="menuMasLista">
+      <a href="web.html">
+       Desarrollo web
+      </a>
+      <a href="movil.html">
+       Desarrollo m&oacute;vil
+      </a>
+      <a href="ia.html">
+       Inteligencia artificial
+      </a>
+      <a href="trabaja.html">
+       Trabaja con nosotros
+      </a>
+      <a href="admin.html">
+       Panel de administraci&oacute;n
+      </a>
+     </div>
+    </details>
+   </nav>
+  </header>
+  <main>
+   <section class="trabajoHero contenedor">
+    <div class="trabajoHeroTexto">
+     <p class="etiqueta">
+      <span class="puntoVivo">
+      </span>
+      07 / &Uacute;NETE A LA IDEA
+     </p>
+     <p class="sobrelinea">
+      CURIOSIDAD &middot; CREATIVIDAD &middot; COLABORACI&Oacute;N
+     </p>
+     <h1>
+      Tu talento puede
+      <br/>
+      ser el inicio de
+      <em>
+       algo grande.
+      </em>
+     </h1>
+     <p class="heroDescripcion">
+      Nos interesan las personas que hacen preguntas, comparten ideas y quieren aprender construyendo. Explora las &aacute;reas y cu&eacute;ntanos qu&eacute; te gustar&iacute;a aportar.
+     </p>
+     <a class="boton botonCian" href="#formTrabajo">
+      Quiero presentarme
+      <span>
+       
+      </span>
+     </a>
+     <div class="trabajoValores">
+      <span>
+       ✦ Aprender en equipo
+      </span>
+      <span>
+       ⌘ Resolver problemas
+      </span>
+      <span>
+        Crear con prop&oacute;sito
+      </span>
+     </div>
     </div>
-
-    <script src="funciones.js"></script>
-</body>
+    <div class="trabajoArte">
+     <div class="trabajoArteMarco">
+      <div class="trabajoArteTop">
+       <span>
+        RR / CREATIVE LAB
+       </span>
+       <span>
+        OPEN TO IDEAS ●
+       </span>
+      </div>
+      <div class="trabajoTipografia">
+       MAKE
+       <br/>
+       <em>
+        GOOD
+       </em>
+       <br/>
+       THINGS
+       <span>
+        ✳
+       </span>
+      </div>
+      <div class="trabajoArteBottom">
+       <span>
+        DISE&Ntilde;O + C&Oacute;DIGO
+       </span>
+       <span>
+        EDICI&Oacute;N 2026
+       </span>
+      </div>
+     </div>
+     <div class="trabajoNotaFlotante">
+      <b>
+       01
+      </b>
+      <span>
+       La pr&oacute;xima idea
+       <br/>
+       puede ser tuya.
+      </span>
+     </div>
+    </div>
+   </section>
+   <section class="bloque contenedor">
+    <div class="seccionIntro">
+     <div>
+      <p class="etiqueta">
+       ENCUENTRA TU ESPACIO
+      </p>
+      <h2>
+       Distintas habilidades.
+       <br/>
+       <em>
+        Una idea compartida.
+       </em>
+      </h2>
+     </div>
+     <p>
+      Estas &aacute;reas son ejemplos ficticios para mostrar c&oacute;mo podr&iacute;a presentarse una convocatoria de RR. Selecciona la que m&aacute;s te interese.
+     </p>
+    </div>
+    <div class="areasTrabajo">
+     <button class="trabajoOpcion" data-area="Desarrollo web">
+      <span class="areaNumero">
+       01
+      </span>
+      <span class="areaIcono">
+       &lt;/&gt;
+      </span>
+      <span class="areaTexto">
+       <b>
+        Desarrollo web
+       </b>
+       <small>
+        HTML &middot; CSS &middot; JavaScript
+       </small>
+       <p>
+        Construir sitios accesibles, adaptables e interactivos.
+       </p>
+      </span>
+      <span class="areaFlecha">
+       
+      </span>
+     </button>
+     <button class="trabajoOpcion" data-area="Programaci&oacute;n">
+      <span class="areaNumero">
+       02
+      </span>
+      <span class="areaIcono">
+       ⌘
+      </span>
+      <span class="areaTexto">
+       <b>
+        Programaci&oacute;n
+       </b>
+       <small>
+        L&Oacute;GICA &middot; RESOLUCI&Oacute;N DE PROBLEMAS
+       </small>
+       <p>
+        Convertir necesidades en instrucciones y soluciones.
+       </p>
+      </span>
+      <span class="areaFlecha">
+       
+      </span>
+     </button>
+     <button class="trabajoOpcion" data-area="Dise&ntilde;o de interfaces">
+      <span class="areaNumero">
+       03
+      </span>
+      <span class="areaIcono">
+       ◫
+      </span>
+      <span class="areaTexto">
+       <b>
+        Dise&ntilde;o de interfaces
+       </b>
+       <small>
+        UI &middot; UX &middot; PROTOTIPOS
+       </small>
+       <p>
+        Dar forma a experiencias visuales f&aacute;ciles de usar.
+       </p>
+      </span>
+      <span class="areaFlecha">
+       
+      </span>
+     </button>
+     <button class="trabajoOpcion" data-area="Desarrollo m&oacute;vil">
+      <span class="areaNumero">
+       04
+      </span>
+      <span class="areaIcono">
+       ▯
+      </span>
+      <span class="areaTexto">
+       <b>
+        Desarrollo m&oacute;vil
+       </b>
+       <small>
+        APLICACIONES &middot; EXPERIENCIAS
+       </small>
+       <p>
+        Dise&ntilde;ar flujos &uacute;tiles para dispositivos m&oacute;viles.
+       </p>
+      </span>
+      <span class="areaFlecha">
+       
+      </span>
+     </button>
+     <button class="trabajoOpcion" data-area="Inteligencia artificial">
+      <span class="areaNumero">
+       05
+      </span>
+      <span class="areaIcono">
+       ✧
+      </span>
+      <span class="areaTexto">
+       <b>
+        Inteligencia artificial
+       </b>
+       <small>
+        DATOS &middot; AUTOMATIZACI&Oacute;N
+       </small>
+       <p>
+        Explorar herramientas digitales con objetivos claros.
+       </p>
+      </span>
+      <span class="areaFlecha">
+       
+      </span>
+     </button>
+    </div>
+   </section>
+   <section class="bloque fondoPanel">
+    <div class="contenedor trabajoFormularioLayout">
+     <div class="trabajoFormularioIntro">
+      <p class="etiqueta">
+       SIGUIENTE PASO
+      </p>
+      <h2>
+       Cu&eacute;ntanos
+       <br/>
+       tu
+       <em>
+        historia.
+       </em>
+      </h2>
+      <p>
+       Queremos conocer tus intereses, qu&eacute; est&aacute;s aprendiendo y qu&eacute; tipo de proyectos te gustar&iacute;a explorar.
+      </p>
+      <div class="trabajoPaso">
+       <span>
+        01
+       </span>
+       <p>
+        <b>
+         Elige un &aacute;rea
+        </b>
+        <small>
+         Selecciona una de las opciones de arriba.
+        </small>
+       </p>
+      </div>
+      <div class="trabajoPaso">
+       <span>
+        02
+       </span>
+       <p>
+        <b>
+         Pres&eacute;ntate
+        </b>
+        <small>
+         Cu&eacute;ntanos tus intereses y objetivos.
+        </small>
+       </p>
+      </div>
+      <div class="trabajoPaso">
+       <span>
+        03
+       </span>
+       <p>
+        <b>
+         Revisa tu informaci&oacute;n
+        </b>
+        <small>
+         Tu informaci&oacute;n aparecer&aacute; en el panel.
+        </small>
+       </p>
+      </div>
+     </div>
+     <form class="formulario formularioTrabajoNuevo" id="formTrabajo">
+      <div class="formularioCabecera">
+       <span>
+        RR / TALENTO
+       </span>
+       <span>
+        FORMULARIO 01
+       </span>
+      </div>
+      <h2>
+       Tu presentaci&oacute;n
+      </h2>
+      <p>
+       Completa tus datos y revisa tu registro desde el panel de administraci&oacute;n.
+      </p>
+      <label>
+       Nombre completo
+       <input minlength="2" name="nombre" placeholder="&iquest;C&oacute;mo te llamas?" required=""/>
+      </label>
+      <label>
+       Correo electr&oacute;nico
+       <input name="correo" placeholder="nombre@correo.com" required="" type="email"/>
+      </label>
+      <div class="camposDos">
+       <label>
+        &Aacute;rea de inter&eacute;s
+        <select name="area" required="">
+         <option value="">
+          Selecciona un &aacute;rea
+         </option>
+         <option>
+          Desarrollo web
+         </option>
+         <option>
+          Programaci&oacute;n
+         </option>
+         <option>
+          Dise&ntilde;o de interfaces
+         </option>
+         <option>
+          Desarrollo m&oacute;vil
+         </option>
+         <option>
+          Inteligencia artificial
+         </option>
+         <option>
+          Otra
+         </option>
+        </select>
+       </label>
+       <label>
+        Nivel actual
+        <select name="nivel" required="">
+         <option value="">
+          Selecciona
+         </option>
+         <option>
+          Estoy aprendiendo
+         </option>
+         <option>
+          Principiante
+         </option>
+         <option>
+          Intermedio
+         </option>
+         <option>
+          Avanzado
+         </option>
+        </select>
+       </label>
+      </div>
+      <label>
+       Cu&eacute;ntanos sobre ti
+       <textarea name="mensaje" placeholder="&iquest;Qu&eacute; te gustar&iacute;a aprender o crear?" required="" rows="4"></textarea>
+      </label>
+      <button class="boton botonCian" type="submit">
+       Validar presentaci&oacute;n
+       <span>
+        
+       </span>
+      </button>
+      <p aria-live="polite" class="resultado">
+      </p>
+     </form>
+    </div>
+   </section>
+  </main>
+  <section class="rr-universo" aria-label="ÚNETE AL EQUIPO">
+   <div class="rr-universo-head">
+    <div><span class="rr-eyebrow">ÚNETE AL EQUIPO</span><h2>Buenas ideas crecen<br/>cuando se comparten.</h2></div>
+    <p>Nos interesa la curiosidad, el trabajo en equipo y las ganas de aprender mientras construimos tecnología.</p>
+   </div>
+   <div class="rr-feature-grid">
+    <article class="rr-feature-card"><img class="rr-feature-image" src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?auto=format&fit=crop&w=720&q=80" alt="Grupo estudiando" loading="lazy"/><span class="rr-feature-icon" aria-hidden="true">✳</span><h3>Crecer con cada reto</h3><p>Cada proyecto es una oportunidad para practicar, investigar y descubrir nuevas herramientas.</p><span class="rr-feature-tag">01 / APRENDER</span></article>
+    <article class="rr-feature-card"><img class="rr-feature-image" src="https://images.unsplash.com/photo-1521737711867-e3b97375f902?auto=format&fit=crop&w=720&q=80" alt="Equipo colaborando" loading="lazy"/><span class="rr-feature-icon" aria-hidden="true">⌘</span><h3>Compartir lo que sabes</h3><p>Las perspectivas diferentes ayudan a encontrar soluciones más completas.</p><span class="rr-feature-tag">02 / COLABORAR</span></article>
+    <article class="rr-feature-card"><img class="rr-feature-image" src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=720&q=80" alt="Persona trabajando en portátil" loading="lazy"/><span class="rr-feature-icon" aria-hidden="true">◈</span><h3>Deja tu huella</h3><p>Aporta ideas, experimenta y ayuda a dar forma a experiencias digitales con sentido.</p><span class="rr-feature-tag">03 / CREAR</span></article>
+   </div>
+  </section>
+  <footer class="pie">
+   <a class="marca" href="index.html">
+    <span class="marcaIcono">
+     R
+     <span>
+      R
+     </span>
+    </span>
+    <span>
+     RR STUDIO
+     <small>
+      DESARROLLO DIGITAL
+     </small>
+    </span>
+   </a>
+   <p>
+    Desarrollo de software y soluciones digitales.
+   </p>
+   <div>
+    <a href="servicios.html">
+     Servicios
+    </a>
+    <a href="clientes.html">
+     Proyectos
+    </a>
+    <a href="contacto.html">
+     Contacto
+    </a>
+   </div>
+   <small>
+    &copy; 2026 RR Studio &middot; Proyecto educativo demostrativo
+   </small>
+  </footer>
+ </body>
 </html>
+

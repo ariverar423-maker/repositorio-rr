@@ -1,306 +1,502 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-    <meta charset="UTF-8">
-   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mi Sitio Web - Modo Libro</title>
-    <link rel="stylesheet" type="text/css" href="pagina_principal.css">
-</head>
-<body>
-
-    <div id="menu">
-   
-        <ul>
-            
-            <li class="item"><a href="#">Inicio</a></li>
-            <li class="item"><a href="formu.html">Formulario</a></li>
-            <li class="item"><a href="servicios.html">Servicios</a></li>
-            <li class="item"><a href="desarrollo-web.html">Desarrollo W</a></li>
-            <li class="item"><a href="desarrollo-movil.html">Desarrollo M</a></li>
-            <li class="item"><a href="inteligencia.html">Inteligencia Art</a></li>
-         
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+  <meta content="RR desarrolla sitios web, aplicaciones m&oacute;viles y herramientas digitales pensadas para las personas." name="description"/>
+  <title>
+   RR | Desarrollo de software
+  </title>
+  <link href="https://fonts.googleapis.com" rel="preconnect"/>
+  <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&amp;family=Space+Grotesk:wght@400;500;600;700&amp;display=swap" rel="stylesheet"/>
+  <link href="estilos.css" rel="stylesheet"/>
+  <script defer="" src="script.js">
+  </script>
+ </head>
+ <body class="portadaNueva">
+  <header class="inicioPortada">
+   <a aria-label="RR, p&aacute;gina principal" class="marca" href="index.html">
+    <span class="marcaIcono">
+     R
+     <span>
+      R
+     </span>
+    </span>
+    <span>
+     RR
+     <small>
+      DESARROLLO DE SOFTWARE
+     </small>
+    </span>
+   </a>
+   <button aria-controls="enlacesPortada" aria-expanded="false" aria-label="Abrir men&uacute;" class="menuPortadaBoton" id="menuPortadaBoton" type="button">
+    ☰
+   </button>
+   <nav aria-label="Navegaci&oacute;n principal" class="enlacesPortada" id="enlacesPortada">
+    <a aria-current="page" href="inicio.html">
+     Inicio
+    </a>
+    <a href="nosotros.html">
+     Nosotros
+    </a>
+    <a href="servicios.html">
+     Servicios
+    </a>
+    <a href="clientes.html">
+     Proyectos
+    </a>
+    <a class="boton botonCian" href="contacto.html">
+     Hablemos
+     <span>
+     </span>
+    </a>
+   </nav>
+  </header>
+  <main>
+   <section aria-labelledby="tituloPortada" class="portadaNuevaHero">
+    <div class="portadaNuevaTexto">
+     <p class="portadaSaludo">
+      <span>
+      </span>
+      DESARROLLO DE SOFTWARE
+     </p>
+     <h1 id="tituloPortada">
+      Creamos soluciones
+      <br/>
+      <em>
+       que s&iacute; sirven.
+      </em>
+     </h1>
+     <p class="portadaNuevaDescripcion">
+      En RR dise&ntilde;amos p&aacute;ginas web, aplicaciones y herramientas digitales para presentar informaci&oacute;n, organizar tareas y facilitar el trabajo.
+     </p>
+     <div class="portadaNuevaAcciones">
+      <a class="boton botonCian" href="servicios.html">
+       Conocer servicios
+       <span>
+       </span>
+      </a>
+      <a class="portadaEnlace" href="clientes.html">
+       Ver proyectos de ejemplo
+       <span>
+       </span>
+      </a>
+     </div>
+     <div aria-label="&Aacute;reas de trabajo" class="portadaPuntos">
+      <span>
+       Dise&ntilde;o claro
+      </span>
+      <span>
+       Adaptado a m&oacute;vil
+      </span>
+      <span>
+       Funciones &uacute;tiles
+      </span>
+     </div>
     </div>
-
-   
-    <div class="slider-container" id="slider">
-        
-        <section class="pantalla pagina-inicio">
-            <div class="contenido-seccion">
-                
-                <div id="texto">  
-                    <h1>Transformamos ideas complejas en soluciones digitales extraordinarias.</h1> 
-                    <br>
-                    En el mundo actual, el software no es solo herramientas o líneas de código; es el motor que impulsa el crecimiento, la innovación y la eficiencia de tu negocio. Si tienes una visión, nosotros tenemos la arquitectura, el código y la experiencia para hacerla realidad.
-                </div>
-
-                <div class="contenedor-tarjetas">
-                    
-                    <a href="trabaja.html">
-                        <div class="tarjeta-info">
-                            <div class="tarjeta-imagen">
-                                <img src="historia.gif" alt="Nosotros">
-                            </div>
-                            <h3>Trabaja Con Nosotros</h3>
-                            <p>Un equipo apasionado por la tecnología y la creación de software único.</p>
-                        </div>
-                    </a>
-
-                    <a href="historia.html">
-                        <div class="tarjeta-info">
-                            <div class="tarjeta-imagen">
-                                <img src="historia2.webp" alt="Historia">
-                            </div>
-                            <h3>Historia</h3>
-                            <p>Nacimos con la idea de transformar procesos en experiencias simples.</p>
-                        </div>
-                    </a>
-
-                    <a href="mision.html">
-                        <div class="tarjeta-info">
-                            <div class="tarjeta-imagen">
-                                <img src="hisoria3.gif" alt="Misión">
-                            </div>
-                            <h3>Misión</h3>
-                            <p>Impulsar el crecimiento de nuestros clientes mediante tecnología.</p>
-                        </div>
-                    </a>
-
-                    <a href="vision.html">
-                        <div class="tarjeta-info">
-                            <div class="tarjeta-imagen">
-                                <img src="historia4.gif" alt="Visión">
-                            </div>
-                            <h3>Visión</h3>
-                            <p>Ser el referente líder en desarrollo de software interactivo.</p>
-                        </div>
-                    </a>
-
-                </div>
-
-            </div>
-        </section>
-
-        <section class="pantalla pagina-servicios">
-            <div class="contenido-seccion">
-                
-                <div id="texto">
-                    <h1>Nuestros Servicios</h1>
-                    <br>
-                    Creamos soluciones tecnológicas a tu medida. Desde páginas web dinámicas hasta integraciones de inteligencia artificial y aplicaciones móviles de alto rendimiento.
-                </div>
-
-                <div class="contenedor-tarjetas">
-                    
-                    <a href="trabaja.html" class="tarjeta-enlace">
-                        <div class="tarjeta-info">
-                            <div class="tarjeta-imagen">
-                                <img src="historia.gif" alt="Nosotros">
-                            </div>
-                            <h3>Trabaja Con Nosotros</h3>
-                            <p>Un equipo apasionado por la tecnología y la creación de software único.</p>
-                        </div>
-                    </a>
-
-                    <a href="historia.html">
-                        <div class="tarjeta-info">
-                            <div class="tarjeta-imagen">
-                                <img src="historia2.webp" alt="Historia">
-                            </div>
-                            <h3>Historia</h3>
-                            <p>Nacimos con la idea de transformar procesos en experiencias simples.</p>
-                        </div>
-                    </a>
-
-                    <a href="mision.html">
-                        <div class="tarjeta-info">
-                            <div class="tarjeta-imagen">
-                                <img src="hisoria3.gif" alt="Misión">
-                            </div>
-                            <h3>Misión</h3>
-                            <p>Impulsar el crecimiento de nuestros clientes mediante tecnología.</p>
-                        </div>
-                    </a>
-
-                    <a href="vision.html">
-                        <div class="tarjeta-info">
-                            <div class="tarjeta-imagen">
-                                <img src="historia4.gif" alt="Visión">
-                            </div>
-                            <h3>Visión</h3>
-                            <p>Ser el referente líder en desarrollo de software interactivo.</p>
-                        </div>
-                    </a>
-
-                </div>
-
-            </div>
-        </section>
-
-        <section class="pantalla pagina-contacto">
-            <div class="contenido-seccion">
-                
-                <div id="texto">
-                    <h1>¿Listo para iniciar tu proyecto?</h1>
-                    <br>
-                    Explora el menú superior para conocer nuestros formularios de contacto, revisar ofertas exclusivas o ver nuestros componentes de hardware recomendados.
-                </div>
-
-                <div class="contenedor-tarjetas">
-                    
-                    <a href="trabaja.html" class="tarjeta-enlace">
-                        <div class="tarjeta-info">
-                            <div class="tarjeta-imagen">
-                                <img src="historia.gif" alt="Nosotros">
-                            </div>
-                            <h3>Trabaja Con Nosotros</h3>
-                            <p>Un equipo apasionado por la tecnología y la creación de software único.</p>
-                        </div>
-                    </a>
-
-                    <a href="historia.html">
-                        <div class="tarjeta-info">
-                            <div class="tarjeta-imagen">
-                                <img src="historia2.webp" alt="Historia">
-                            </div>
-                            <h3>Historia</h3>
-                            <p>Nacimos con la idea de transformar procesos en experiencias simples.</p>
-                        </div>
-                    </a>
-
-                    <a href="mision.html">
-                        <div class="tarjeta-info">
-                            <div class="tarjeta-imagen">
-                                <img src="hisoria3.gif" alt="Misión">
-                            </div>
-                            <h3>Misión</h3>
-                            <p>Impulsar el crecimiento de nuestros clientes mediante tecnología.</p>
-                        </div>
-                    </a>
-
-                    <a href="vision.html">
-                        <div class="tarjeta-info">
-                            <div class="tarjeta-imagen">
-                                <img src="historia4.gif" alt="Visión">
-                            </div>
-                            <h3>Visión</h3>
-                            <p>Ser el referente líder en desarrollo de software interactivo.</p>
-                        </div>
-                    </a>
-
-                </div>
-
-            </div>
-        </section>
-
+    <div class="demoZona">
+     <div class="telefonoDemo">
+      <div aria-label="Prototipo interactivo de una aplicaci&oacute;n m&oacute;vil" class="telefonoMarco">
+       <div class="telefonoIsla">
+       </div>
+       <div class="telefonoBarra">
+        <span>
+         9:41
+        </span>
+        <span>
+         ●●● ▰
+        </span>
+       </div>
+       <div class="telefonoPantalla">
+        <div class="appCabecera">
+         <span class="appLogo">
+          RR
+         </span>
+         <button aria-expanded="false" aria-label="Mostrar ayuda del prototipo" class="appMenu" id="appMenu" type="button">
+          Ayuda
+         </button>
+        </div>
+        <div class="appSaludo">
+         <small id="demoEtiqueta">
+          CONOCE LO QUE HACEMOS
+         </small>
+         <h2 id="demoTitulo">
+          Hola, &iquest;qu&eacute; necesitas?
+         </h2>
+         <p id="demoTexto">
+          Toca una opci&oacute;n para explorar una soluci&oacute;n digital.
+         </p>
+        </div>
+        <div aria-label="Explora los servicios de RR" class="appOpciones">
+         <button aria-pressed="true" class="appOpcion seleccionada" data-vista="web" type="button">
+          <span class="appOpcionIcono">
+           WEB
+          </span>
+          <span>
+           <b>
+            P&aacute;gina web
+           </b>
+           <small>
+            Tu idea en internet
+           </small>
+          </span>
+         </button>
+         <button aria-pressed="false" class="appOpcion" data-vista="movil" type="button">
+          <span class="appOpcionIcono morado">
+           APP
+          </span>
+          <span>
+           <b>
+            Aplicaci&oacute;n m&oacute;vil
+           </b>
+           <small>
+            Servicios desde el celular
+           </small>
+          </span>
+         </button>
+        </div>
+        <div class="appPie">
+         <span>
+          Prototipo interactivo
+         </span>
+         <span>
+          RR Studio
+         </span>
+        </div>
+       </div>
+      </div>
+     </div>
     </div>
-
-
-<section class="seccion-abajo">
-    <div class="contenido-abajo">
-        <h2 class="titulo-ia">El Poder del Desarrollo de Software</h2>
-        
-     
-        <div class="contenedor-cajas-nuevas fila-3">
-            <div class="caja-opaca">
-                <h3>¿Qué es el Software?</h3>
-                <p>Es el conjunto de programas e instrucciones que le dicen a una computadora qué hacer para resolver un problema o facilitar una tarea diaria.</p>
-            </div>
-
-            <div class="caja-opaca">
-                <h3>Innovación Digital</h3>
-                <p>Consiste en crear aplicaciones rápidas, sencillas y fáciles de usar en computadores y teléfonos celulares.</p>
-            </div>
-
-            <div class="caja-opaca">
-                <h3>Automatización</h3>
-                <p>Convertimos tareas manuales y repetitivas en procesos automáticos para ahorrar tiempo y dinero en una empresa.</p>
-            </div>
-        </div>
-
-        
-        <div class="contenedor-cajas-nuevas fila-2">
-            <div class="caja-opaca">
-                <h3>Escalabilidad</h3>
-                <p>Construimos sistemas bien estructurados que pueden atender a miles de usuarios al mismo tiempo sin caerse ni ponerse lentos.</p>
-            </div>
-
-            <div class="caja-opaca">
-                <h3>Soporte y Mejora</h3>
-                <p>El trabajo no termina al publicar la página o app; requiere mantenimiento continuo, corregir errores y agregar nuevas funciones.</p>
-            </div>
-        </div>
-
-       
-        <div class="contenedor-cajas-nuevas fila-1">
-            <div class="caja-opaca">
-                <h3>Software a Medida</h3>
-                <p>A diferencia de los programas genéricos, un software a medida se adapta 100% a las necesidades específicas de tu proyecto o negocio.</p>
-            </div>
-        </div>
-
+   </section>
+   <section aria-label="Destacados de RR" class="proyectosSlider" id="destacadosRR">
+    <div class="sliderEncabezado">
+     <div>
+      <p class="sliderEtiqueta">
+       RR &middot; IDEAS EN ACCI&Oacute;N
+      </p>
+      <h2>
+       Soluciones pensadas para
+       <em>
+        la vida real.
+       </em>
+      </h2>
+     </div>
+     <div class="sliderControles">
+      <button aria-label="Ver proyecto anterior" id="sliderAnterior" type="button">
+       Anterior
+      </button>
+      <button aria-label="Ver proyecto siguiente" id="sliderSiguiente" type="button">
+       Siguiente
+      </button>
+     </div>
     </div>
-</section>
-
-
-
-<section class="seccion-abajo seccion-ia">
-    <div class="contenido-abajo">
-        <h2 class="titulo-ia">Inteligencia Artificial en el Desarrollo de Software</h2>
-        
-   
-        <div class="contenedor-cajas-nuevas fila-asimetrica-1">
-            <div class="caja-opaca caja-destacada">
-           
-                <h3>IA en la Programación</h3>
-                <p>La inteligencia artificial ayuda a los programadores a escribir código más rápido, encontrar errores antes de publicar y mejorar la seguridad.</p>
-            </div>
-
-            <div class="caja-opaca">
-                <h3>Asistentes de Código</h3>
-                <p>Herramientas que autocompletan líneas de código mientras el desarrollador escribe, como un corrector inteligente.</p>
-            </div>
-        </div>
-
-    
-        <div class="contenedor-cajas-nuevas fila-cuatro">
-            <div class="caja-opaca caja-mini">
-                <h3>Predicciones</h3>
-                <p>Analiza datos para entender qué necesitará el usuario.</p>
-            </div>
-
-            <div class="caja-opaca caja-mini">
-                <h3>Pruebas Automáticas</h3>
-                <p>Revisa que todo funcione bien sin intervención humana.</p>
-            </div>
-
-            <div class="caja-opaca caja-mini">
-                <h3>Chatbots e IA</h3>
-                <p>Integra asistentes conversacionales dentro de tu app.</p>
-            </div>
-
-            <div class="caja-opaca caja-mini">
-                <h3>Servidores Autónomos</h3>
-                <p>Optimiza recursos y servidores de forma automática.</p>
-            </div>
-        </div>
-
-        <div class="contenedor-cajas-nuevas fila-asimetrica-2">
-            <div class="caja-opaca">
-                <h3>Agentes Inteligentes</h3>
-                <p>Programas capaces de tomar decisiones simples por sí solos para resolver problemas técnicos.</p>
-            </div>
-
-            <div class="caja-opaca caja-destacada">
-                <span class="badge-ia">Futuro Scalable</span>
-                <h3>Sistemas que Aprenden</h3>
-                <p>Plataformas que detectan cuando hay muchos usuarios conectados y mejoran su propio rendimiento automáticamente para evitar fallas.</p>
-            </div>
-        </div>
-
+    <div aria-live="polite" class="sliderVentana">
+     <article class="sliderPanel activo" data-slide="0" style="--imagen-slide:url('https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&amp;fit=crop&amp;w=1800&amp;q=85')">
+      <div class="sliderContenido">
+       <span class="sliderNumero">
+        01 / 03 &middot; DESARROLLO WEB
+       </span>
+       <h3>
+        Una web que explica tu idea.
+       </h3>
+       <p>
+        P&aacute;ginas claras para presentar servicios, mostrar proyectos y ayudar a las personas a encontrar lo que necesitan.
+       </p>
+       <a class="sliderLink" href="web.html">
+        Explorar desarrollo web
+       </a>
+      </div>
+     </article>
+     <article class="sliderPanel" data-slide="1" style="--imagen-slide:url('https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?auto=format&amp;fit=crop&amp;w=1800&amp;q=85')">
+      <div class="sliderContenido">
+       <span class="sliderNumero">
+        02 / 03 &middot; APLICACIONES M&Oacute;VILES
+       </span>
+       <h3>
+        Tu proyecto, en el bolsillo.
+       </h3>
+       <p>
+        Experiencias pensadas para celular: servicios, herramientas y funciones organizadas de forma sencilla.
+       </p>
+       <a class="sliderLink" href="movil.html">
+        Conocer desarrollo m&oacute;vil
+       </a>
+      </div>
+     </article>
+     <article class="sliderPanel" data-slide="2" style="--imagen-slide:url('https://images.unsplash.com/photo-1521737711867-e3b97375f902?auto=format&amp;fit=crop&amp;w=1800&amp;q=85')">
+      <div class="sliderContenido">
+       <span class="sliderNumero">
+        03 / 03 &middot; HERRAMIENTAS DIGITALES
+       </span>
+       <h3>
+        Herramientas digitales para organizar mejor tu trabajo.
+       </h3>
+       <p>
+        Creamos soluciones que ayudan a presentar informaci&oacute;n, organizar actividades y realizar tareas de forma m&aacute;s sencilla.
+       </p>
+       <a class="sliderLink" href="ia.html">
+        Conocer nuestras soluciones
+       </a>
+      </div>
+     </article>
     </div>
-</section>
-
-    <script src="movimiento.js"></script>
-
-</body>
+    <div class="sliderPie">
+     <div aria-label="Elegir diapositiva" class="sliderPuntos">
+      <button aria-label="Mostrar diapositiva 1" aria-pressed="true" class="sliderPunto activo" data-ir-slide="0" type="button">
+      </button>
+      <button aria-label="Mostrar diapositiva 2" aria-pressed="false" class="sliderPunto" data-ir-slide="1" type="button">
+      </button>
+      <button aria-label="Mostrar diapositiva 3" aria-pressed="false" class="sliderPunto" data-ir-slide="2" type="button">
+      </button>
+     </div>
+     <span id="sliderEstado">
+      01 / 03
+     </span>
+    </div>
+   </section>
+   <section aria-labelledby="tituloServicios" class="portadaMiniServicios">
+    <div class="miniServicioTitulo">
+     <span>
+      QU&Eacute; PODEMOS HACER
+     </span>
+     <p id="tituloServicios">
+      Tres formas de llevar una idea al mundo digital.
+     </p>
+    </div>
+    <a class="miniServicio" href="web.html">
+     <span class="miniServicioIcono">
+      WEB
+     </span>
+     <span>
+      <b>
+       Desarrollo web
+      </b>
+      <small>
+       Sitios y plataformas
+      </small>
+     </span>
+    </a>
+    <a class="miniServicio" href="movil.html">
+     <span class="miniServicioIcono morado">
+      APP
+     </span>
+     <span>
+      <b>
+       Desarrollo m&oacute;vil
+      </b>
+      <small>
+       Aplicaciones para celular
+      </small>
+     </span>
+    </a>
+    <a class="miniServicio" href="ia.html">
+     <span class="miniServicioIcono verde">
+       AUTO
+     </span>
+     <span>
+      <b>
+       Inteligencia artificial
+      </b>
+      <small>
+       Automatizaci&oacute;n y apoyo
+      </small>
+     </span>
+    </a>
+   </section>
+   <section aria-labelledby="tituloAcerca" class="contenedor bloque portadaAcerca">
+    <div class="portadaAcercaTexto">
+     <p class="etiqueta">
+      UNA IDEA DETR&Aacute;S DE RR
+     </p>
+     <h2 id="tituloAcerca">
+      La tecnolog&iacute;a debe hacer las cosas
+      <em>
+       m&aacute;s sencillas.
+      </em>
+     </h2>
+     <p>
+      Por eso pensamos primero en las personas: qu&eacute; necesitan, qu&eacute; quieren lograr y c&oacute;mo podemos ayudar con herramientas claras y f&aacute;ciles de utilizar.
+     </p>
+     <a class="enlace" href="nosotros.html">
+      Conoce nuestra historia
+      <span>
+      </span>
+     </a>
+    </div>
+    <div class="portadaPrincipios">
+     <article>
+      <span>
+       01
+      </span>
+      <div>
+       <h3>
+        Entender
+       </h3>
+       <p>
+        Escuchamos la idea y el problema que se quiere resolver.
+       </p>
+      </div>
+     </article>
+     <article>
+      <span>
+       02
+      </span>
+      <div>
+       <h3>
+        Dise&ntilde;ar
+       </h3>
+       <p>
+        Organizamos la informaci&oacute;n para que sea f&aacute;cil de usar.
+       </p>
+      </div>
+     </article>
+     <article>
+      <span>
+       03
+      </span>
+      <div>
+       <h3>
+        Construir
+       </h3>
+       <p>
+        Convertimos el concepto en una demostraci&oacute;n digital.
+       </p>
+      </div>
+     </article>
+    </div>
+   </section>
+   <section aria-label="Inspiraci&oacute;n y trabajo digital" class="fotoEditorial fotoInicio">
+    <div>
+     <span>
+      IDEAS QUE SE CONVIERTEN EN EXPERIENCIAS
+     </span>
+     <h2>
+      Dise&ntilde;ar es entender
+      <br/>
+      c&oacute;mo vive la gente.
+     </h2>
+     <p>
+      La tecnolog&iacute;a tiene sentido cuando ayuda en algo real.
+     </p>
+    </div>
+    <div class="fotoCredito">
+     Imagen de Unsplash &middot; fotograf&iacute;a de trabajo creativo
+    </div>
+   </section>
+   <section aria-labelledby="tituloVideosRR" class="seccionVideosRR">
+    <div class="videosRREncabezado">
+     <p class="etiqueta">VIDEOS Y DEMOSTRACIONES</p>
+     <h2 id="tituloVideosRR">Mira ideas digitales <em>en acción.</em></h2>
+     <p>Explora videos sobre páginas web, aplicaciones y diseño digital para conocer distintas posibilidades.</p>
+    </div>
+    <div class="videosRRGrid">
+     <article class="videoRRCard">
+      <a class="videoRRVista videoRRWeb" href="https://www.youtube.com/results?search_query=demostracion+diseno+desarrollo+web" target="_blank" rel="noopener noreferrer" aria-label="Buscar videos de desarrollo web en YouTube">
+       <span class="videoRRPlay" aria-hidden="true">▶</span><span class="videoRREtiqueta">DESARROLLO WEB</span>
+      </a>
+      <div class="videoRRInfo"><h3>Cómo se construye una página web</h3><p>Conoce ejemplos de sitios, secciones y funciones para presentar un proyecto.</p><a href="https://www.youtube.com/results?search_query=demostracion+diseno+desarrollo+web" target="_blank" rel="noopener noreferrer">Ver videos en YouTube</a></div>
+     </article>
+     <article class="videoRRCard">
+      <a class="videoRRVista videoRRMovil" href="https://www.youtube.com/results?search_query=demostracion+diseno+aplicaciones+moviles" target="_blank" rel="noopener noreferrer" aria-label="Buscar videos de aplicaciones móviles en YouTube">
+       <span class="videoRRPlay" aria-hidden="true">▶</span><span class="videoRREtiqueta">APLICACIONES</span>
+      </a>
+      <div class="videoRRInfo"><h3>Ideas para aplicaciones móviles</h3><p>Observa ejemplos de pantallas, navegación y herramientas pensadas para celulares.</p><a href="https://www.youtube.com/results?search_query=demostracion+diseno+aplicaciones+moviles" target="_blank" rel="noopener noreferrer">Ver videos en YouTube</a></div>
+     </article>
+     <article class="videoRRCard">
+      <a class="videoRRVista videoRRDiseno" href="https://www.youtube.com/results?search_query=diseno+de+interfaces+experiencia+de+usuario" target="_blank" rel="noopener noreferrer" aria-label="Buscar videos de diseño de interfaces en YouTube">
+       <span class="videoRRPlay" aria-hidden="true">▶</span><span class="videoRREtiqueta">DISEÑO DIGITAL</span>
+      </a>
+      <div class="videoRRInfo"><h3>Diseño claro y fácil de usar</h3><p>Aprende cómo organizar textos, botones y contenido para que una página sea sencilla.</p><a href="https://www.youtube.com/results?search_query=diseno+de+interfaces+experiencia+de+usuario" target="_blank" rel="noopener noreferrer">Ver videos en YouTube</a></div>
+     </article>
+    </div>
+   </section>
+   <section aria-labelledby="videoDestacadoTitulo" class="videoDestacadoRR">
+    <div class="videoDestacadoTexto">
+     <p class="etiqueta">APRENDE VIENDO</p>
+     <h2 id="videoDestacadoTitulo">Del código a una <em>experiencia digital.</em></h2>
+     <p>Un vistazo al desarrollo web: estructura, estilos y programación que convierten una idea en una página funcional.</p>
+     <div class="videoEtiquetas"><span>HTML</span><span>CSS</span><span>JavaScript</span><span>Diseño UX/UI</span></div>
+     <a class="boton botonCian" href="https://www.youtube.com/results?search_query=tutorial+desarrollo+web+html+css+javascript" target="_blank" rel="noopener noreferrer">Explorar más videos ↗</a>
+    </div>
+    <div class="videoDestacadoMarco">
+     <div class="videoMarcoCabecera"><span></span><span></span><span></span><small>RR STUDIO / WEB LAB</small></div>
+     <div class="videoIframeContenedor"><iframe src="https://www.youtube-nocookie.com/embed/UB1O30fR-EE" title="Tutorial introductorio de desarrollo web con HTML" loading="lazy" referrerpolicy="strict-origin-when-cross-origin" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div>
+     <p class="videoMarcoPie">DESARROLLO WEB · TUTORIAL INTRODUCTORIO</p>
+    </div>
+   </section>
+   <section class="rrLabInteractivo" aria-labelledby="rrLabTitulo">
+    <div class="rrLabIntro">
+     <p class="rrLabEyebrow">EXPLORA · PRUEBA · DESCUBRE</p>
+     <h2 id="rrLabTitulo">Un poco de magia.<br><em>Mucho código.</em></h2>
+     <p>Prueba cómo cambian las ideas cuando combinamos diseño, desarrollo y tecnología. Toca las opciones para cambiar la demostración.</p>
+     <div class="rrLabTabs" role="group" aria-label="Elegir demostración">
+      <button type="button" class="rrLabTab activo" data-lab="web" aria-pressed="true">01 · Web</button>
+      <button type="button" class="rrLabTab" data-lab="app" aria-pressed="false">02 · Apps</button>
+      <button type="button" class="rrLabTab" data-lab="datos" aria-pressed="false">03 · Datos</button>
+     </div>
+    </div>
+    <div class="rrLabEscenario" id="rrLabEscenario">
+     <div class="rrLabVentanaTop"><span></span><span></span><span></span><b>RR / INTERACTIVE LAB</b></div>
+     <div class="rrLabContenido">
+      <div class="rrLabCodigo" aria-hidden="true"><span class="rrCodeMuted">const</span> idea = <span class="rrCodePink">"tu proyecto"</span>;<br><span class="rrCodeMuted">function</span> <span class="rrCodeBlue">crear</span>() {<br>&nbsp;&nbsp;return <span class="rrCodeGreen">experiencia</span>;<br>}</div>
+      <div class="rrLabPreview" id="rrLabPreview">
+       <div class="rrLabOrb"></div><span class="rrLabMiniTag">TU IDEA, EN MOVIMIENTO</span><h3 id="rrLabPreviewTitulo">Una web con propósito.</h3><p id="rrLabPreviewTexto">Diseño claro, navegación sencilla y detalles que se sienten.</p><button type="button" id="rrLabAccion">Probar interacción ↗</button><small id="rrLabFeedback" aria-live="polite">Selecciona una experiencia para comenzar.</small>
+      </div>
+     </div>
+     <div class="rrLabPie"><span><i></i> DEMO EN VIVO</span><span id="rrLabEstado">HTML · CSS · JavaScript</span></div>
+    </div>
+   </section>
+   <section class="portadaFinal">
+    <p>
+     &iquest;TIENES UNA IDEA EN MENTE?
+    </p>
+    <h2>
+     Hablemos de lo que quieres
+     <em>
+      crear.
+     </em>
+    </h2>
+    <a class="boton botonCian" href="contacto.html">
+     Ir a contacto
+     <span>
+     </span>
+    </a>
+   </section>
+  </main>
+  <section class="rr-universo" aria-label="IDEAS QUE TOMAN FORMA">
+   <div class="rr-universo-head">
+    <div><span class="rr-eyebrow">IDEAS QUE TOMAN FORMA</span><h2>Tu próxima idea<br/>empieza aquí.</h2></div>
+    <p>En RR Studio convertimos retos cotidianos en experiencias digitales claras, útiles y hechas para las personas.</p>
+   </div>
+   <div class="rr-feature-grid">
+    <article class="rr-feature-card"><img class="rr-feature-image" src="https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&w=720&q=80" alt="Un planeta conectado y tecnología" loading="lazy"/><span class="rr-feature-icon" aria-hidden="true">✳</span><h3>Escuchamos antes de construir</h3><p>Entendemos la necesidad, el público y el objetivo para encontrar el camino correcto.</p><span class="rr-feature-tag">01 / DESCUBRIR</span></article>
+    <article class="rr-feature-card"><img class="rr-feature-image" src="https://images.unsplash.com/photo-1519389950473-47ba0277781c?auto=format&fit=crop&w=720&q=80" alt="Equipo trabajando con tecnología" loading="lazy"/><span class="rr-feature-icon" aria-hidden="true">⌘</span><h3>Diseñamos y desarrollamos</h3><p>Unimos una interfaz atractiva con código que funciona y se adapta a cada pantalla.</p><span class="rr-feature-tag">02 / CREAR</span></article>
+    <article class="rr-feature-card"><img class="rr-feature-image" src="https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=720&q=80" alt="Circuitos electrónicos" loading="lazy"/><span class="rr-feature-icon" aria-hidden="true">◈</span><h3>Siempre hay una nueva versión</h3><p>Probamos, aprendemos y afinamos cada detalle para que la experiencia siga creciendo.</p><span class="rr-feature-tag">03 / MEJORAR</span></article>
+   </div>
+  </section>
+  <footer class="portadaFooter">
+   <a class="marca" href="index.html">
+    <span class="marcaIcono">
+     R
+     <span>
+      R
+     </span>
+    </span>
+    <span>
+     RR
+     <small>
+      DESARROLLO DE SOFTWARE
+     </small>
+    </span>
+   </a>
+   <p>
+    Sitios web, aplicaciones y herramientas digitales.
+   </p>
+   <span>
+    Proyecto demostrativo &middot; 2026
+   </span>
+  </footer>
+ </body>
 </html>
+

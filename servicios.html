@@ -1,108 +1,364 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Nuestros Servicios | Desarrollo de Software</title>
-    <link rel="stylesheet" href="servicios.css">
-</head>
-<body>
-
-    <section class="seccion-servicios">
-        <div class="contenido-servicios">
-            <h2>Nuestros Servicios de Software</h2>
-            <p class="subtitulo-seccion">Creamos soluciones digitales sencillas, rápidas y personalizadas para hacer crecer tu empresa.</p>
-            
-            <div class="contenedor-servicios-grid">
-                
-             
-                <div class="caja-opaca servicio-card card-destacada anim-izquierda">
-                    <span class="etiqueta-destacada">Servicio Principal</span>
-                    <h3>Desarrollo Web Full Stack</h3>
-                    <p>Diseñamos y construimos páginas y plataformas web completas. Nos encargamos tanto de la apariencia visual como del funcionamiento interno para garantizar rapidez y seguridad.</p>
-                </div>
-
-                <div class="caja-opaca servicio-card card-vertical anim-derecha">
-                    <h3>Desarrollo Móvil (iOS y Android)</h3>
-                    <p>Creamos aplicaciones para celulares fluidas y fáciles de usar.</p>
-                    <p>Integramos funciones como ubicación por GPS, notificaciones, pagos en línea y funcionamiento sin internet.</p>
-                </div>
-
-                <div class="caja-opaca servicio-card anim-zoom">
-                    <h3>Sistemas ERP y CRM</h3>
-                    <p>Diseñamos programas para organizar tu negocio: automatizamos inventarios, contabilidad y atención a clientes.</p>
-                </div>
-
-                <div class="caja-opaca servicio-card anim-arriba">
-                    <h3>Servidores y Nube (Cloud)</h3>
-                    <p>Guardamos y gestionamos tu información en la nube (AWS, Google Cloud) para que la página nunca se caiga.</p>
-                </div>
-
-                <div class="caja-opaca servicio-card anim-izquierda">
-                    <h3>Diseño de Interfaces (UI / UX)</h3>
-                    <p>Diseñamos pantallas atractivas e intuitivas para que los usuarios naveguen de forma fácil y cómoda.</p>
-                </div>
-
-            
-                <div class="caja-opaca servicio-card card-horizontal anim-derecha">
-                    <h3>Conexión de Sistemas (APIs)</h3>
-                    <p>Conectamos tu sitio web con pasarelas de pago (como PSE o tarjetas), bases de datos y otras aplicaciones externas de forma segura.</p>
-                </div>
-
-                <div class="caja-opaca servicio-card card-horizontal anim-zoom">
-                    <h3>Ciberseguridad</h3>
-                    <p>Protegemos tu información e infraestructura contra ataques informáticos, encriptando datos y corrigiendo fallas de seguridad.</p>
-                </div>
-
-                
-                <div class="caja-opaca servicio-card card-vertical anim-izquierda">
-                    <h3>Inteligencia Artificial y Datos</h3>
-                    <p>Usamos modelos de inteligencia artificial para analizar grandes cantidades de información, predecir tendencias y ayudarte a tomar mejores decisiones.</p>
-                </div>
-
-                <div class="caja-opaca servicio-card anim-arriba">
-                    <h3>Soporte Técnico 24/7</h3>
-                    <p>Monitoreamos tu sistema todo el tiempo para resolver problemas rápido y mantener la página siempre activa.</p>
-                </div>
-
-                <div class="caja-opaca servicio-card anim-derecha">
-                    <h3>Blockchain y Smart Contracts</h3>
-                    <p>Desarrollamos tecnología descentralizada para registros seguros, transparentes e imposibles de alterar.</p>
-                </div>
-
-           
-                <div class="caja-opaca servicio-card card-vertical anim-zoom">
-                    <h3>Internet de las Cosas (IoT)</h3>
-                    <p>Conectamos dispositivos físicos y sensores a internet para controlarlos a distancia en tiempo real.</p>
-                    <p>Ideal para automatización de luces, máquinas industriales y monitoreo remoto.</p>
-                </div>
-
-                <div class="caja-opaca servicio-card anim-izquierda">
-                    <h3>Renovación de Software Antiguo</h3>
-                    <p>Actualizamos sistemas viejos a tecnologías modernas sin perder datos ni interrumpir el trabajo de la empresa.</p>
-                </div>
-
-                <div class="caja-opaca servicio-card anim-arriba">
-                    <h3>Consultoría Tecnológica</h3>
-                    <p>Asesoramos a empresas sobre qué tecnologías usar y cómo organizar sus proyectos digitales correctamente.</p>
-                </div>
-
-                
-                <div class="caja-opaca servicio-card card-destacada-final anim-derecha">
-                    <span class="etiqueta-destacada">Especialidad</span>
-                    <h3>Pruebas y Control de Calidad (QA)</h3>
-                    <p>Probamos a fondo cada aplicación antes de lanzarla para asegurar que no tenga errores, no se ponga lenta y funcione perfectamente en cualquier dispositivo.</p>
-                </div>
-
-            </div>
-        </div>
-    </section>
-
-    <footer class="pagina">
-        <div class="contenedor">
-            <a href="index.html" class="enlace-volver">Volver a la Página Principal</a>
-        </div>
-    </footer>
-
-</body>
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+  <title>
+   RR Studio | Servicios
+  </title>
+  <link href="https://fonts.googleapis.com" rel="preconnect"/>
+  <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&amp;family=Space+Grotesk:wght@400;500;600;700&amp;display=swap" rel="stylesheet"/>
+  <link href="estilos.css" rel="stylesheet"/>
+  <script defer="" src="script.js">
+  </script>
+ </head>
+ <body>
+  <header class="barra">
+   <a class="marca" href="index.html">
+    <span class="marcaIcono">
+     R
+     <span>
+      R
+     </span>
+    </span>
+    <span>
+     RR STUDIO
+     <small>
+      DESARROLLO DIGITAL
+     </small>
+    </span>
+   </a>
+   <button aria-controls="menu" aria-expanded="false" aria-label="Abrir men&uacute;" class="menuBoton" id="menuBoton" type="button">
+    ☰
+   </button>
+   <nav aria-label="Navegaci&oacute;n principal" class="menu" id="menu">
+    <a href="inicio.html">
+     Inicio
+    </a>
+    <a href="nosotros.html">
+     Nosotros
+    </a>
+    <a aria-current="page" class="activo" href="servicios.html">
+     Servicios
+    </a>
+    <a href="clientes.html">
+     Proyectos
+    </a>
+    <a href="contacto.html">
+     Contacto
+    </a>
+    <details class="menuMas">
+     <summary>
+      Explorar
+     </summary>
+     <div class="menuMasLista">
+      <a href="web.html">
+       Desarrollo web
+      </a>
+      <a href="movil.html">
+       Desarrollo m&oacute;vil
+      </a>
+      <a href="ia.html">
+       Inteligencia artificial
+      </a>
+      <a href="trabaja.html">
+       Trabaja con nosotros
+      </a>
+      <a href="admin.html">
+       Panel de administraci&oacute;n demo
+      </a>
+     </div>
+    </details>
+   </nav>
+  </header>
+  <main>
+   <section class="tituloPagina contenedor serviciosHero">
+    <p class="etiqueta">
+     02 / QU&Eacute; HACEMOS
+    </p>
+    <h1>
+     Soluciones para
+     <br/>
+     <em>
+      el mundo real.
+     </em>
+    </h1>
+    <p>
+     Dise&ntilde;o y tecnolog&iacute;a conectados para convertir ideas en productos digitales.
+    </p>
+   </section>
+   <section class="contenedor bloque">
+    <div class="tarjetas tres serviciosGrid">
+     <article class="tarjeta">
+      <div class="tarjetaArriba">
+       <span class="icono">
+        IDEA
+       </span>
+       <span>
+        01
+       </span>
+      </div>
+      <h3>
+       Desarrollo de software
+      </h3>
+      <p>
+       Herramientas digitales pensadas alrededor de las necesidades de cada proyecto.
+      </p>
+      <a class="enlace" href="contacto.html">
+       Conocer m&aacute;s
+      </a>
+     </article>
+     <article class="tarjeta">
+      <div class="tarjetaArriba">
+       <span class="icono">
+        ▧
+       </span>
+       <span>
+        02
+       </span>
+      </div>
+      <h3>
+       Desarrollo web
+      </h3>
+      <p>
+       Sitios modernos, r&aacute;pidos y adaptables a diferentes tama&ntilde;os de pantalla.
+      </p>
+      <a class="enlace" href="web.html">
+       Conocer m&aacute;s
+      </a>
+     </article>
+     <article class="tarjeta">
+      <div class="tarjetaArriba">
+       <span class="icono">
+        APP
+       </span>
+       <span>
+        03
+       </span>
+      </div>
+      <h3>
+       Aplicaciones m&oacute;viles
+      </h3>
+      <p>
+       Experiencias intuitivas para acceder a servicios desde el tel&eacute;fono.
+      </p>
+      <a class="enlace" href="movil.html">
+       Conocer m&aacute;s
+      </a>
+     </article>
+     <article class="tarjeta">
+      <div class="tarjetaArriba">
+       <span class="icono">
+       </span>
+       <span>
+        04
+       </span>
+      </div>
+      <h3>
+       Inteligencia artificial
+      </h3>
+      <p>
+       Conceptos para automatizar tareas y explorar nuevas formas de interacci&oacute;n.
+      </p>
+      <a class="enlace" href="ia.html">
+       Conocer m&aacute;s
+      </a>
+     </article>
+     <article class="tarjeta">
+      <div class="tarjetaArriba">
+       <span class="icono">
+        UI
+       </span>
+       <span>
+        05
+       </span>
+      </div>
+      <h3>
+       Dise&ntilde;o de interfaces
+      </h3>
+      <p>
+       Interfaces que equilibran claridad, identidad visual y facilidad de uso.
+      </p>
+      <a class="enlace" href="clientes.html">
+       Conocer m&aacute;s
+      </a>
+     </article>
+     <article class="tarjeta">
+      <div class="tarjetaArriba">
+       <span class="icono">
+        PROCESO
+       </span>
+       <span>
+        06
+       </span>
+      </div>
+      <h3>
+       Automatizaci&oacute;n
+      </h3>
+      <p>
+       Flujos digitales para organizar procesos y reducir tareas repetitivas.
+      </p>
+      <a class="enlace" href="contacto.html">
+       Conocer m&aacute;s
+      </a>
+     </article>
+    </div>
+   </section>
+   <section class="contenedor rr-html-lab" aria-labelledby="rrHtmlTitle">
+    <div class="rr-html-lab-head">
+     <div>
+      <span class="rr-html-lab-kicker">MINI LABORATORIO · APRENDE HACIENDO</span>
+      <h2 id="rrHtmlTitle">Tu primer espacio de código</h2>
+      <p>Escribe HTML en el editor, presiona <strong>Ejecutar</strong> y mira cómo cambia la vista previa. Puedes editar los títulos, los párrafos, los colores y los botones para experimentar.</p>
+     </div>
+     <span class="rr-html-lab-badge">● PRÁCTICA EN VIVO</span>
+    </div>
+    <div class="rr-html-lab-grid">
+     <div class="rr-html-editor-panel">
+      <div class="rr-html-panel-top"><span class="rr-html-dots"><i></i><i></i><i></i></span> EDITOR · HTML</div>
+      <div class="rr-html-snippets" aria-label="Insertar ejemplos HTML">
+       <span>INSERTAR EJEMPLO:</span>
+       <button type="button" data-html-snippet="button">Botón</button>
+       <button type="button" data-html-snippet="list">Lista</button>
+       <button type="button" data-html-snippet="select">Selección</button>
+       <button type="button" data-html-snippet="form">Formulario</button>
+       <button type="button" data-html-snippet="table">Tabla</button>
+       <button type="button" data-html-snippet="image">Imagen</button>
+      </div>
+      <textarea id="rrHtmlEditor" class="rr-html-editor" spellcheck="false" aria-label="Editor para practicar código HTML"></textarea>
+     </div>
+     <div class="rr-html-preview-panel">
+      <div class="rr-html-panel-top"><span class="rr-html-dots"><i></i><i></i><i></i></span> VISTA PREVIA · RESULTADO</div>
+      <iframe id="rrHtmlPreview" class="rr-html-preview" title="Vista previa de tu código HTML" sandbox="allow-scripts"></iframe>
+     </div>
+    </div>
+    <div class="rr-html-actions">
+     <button class="rr-html-run" id="rrHtmlRun" type="button">▶ Ejecutar código</button>
+     <button id="rrHtmlReset" type="button">↺ Restaurar ejemplo</button>
+     <button id="rrHtmlCopy" type="button">▣ Copiar código</button>
+    </div>
+    <p class="rr-html-tip">Consejo: prueba cambiar <code>&lt;h1&gt;</code> por otro título, añadir una lista con <code>&lt;ul&gt;</code> y <code>&lt;li&gt;</code>, o modificar el color desde la etiqueta <code>&lt;style&gt;</code>.</p>
+   </section>
+   <section class="contenedor bloque procesoServicios">
+    <div class="cabeceraSeccion">
+     <p class="etiqueta">
+      AS&Iacute; CONVERTIMOS IDEAS EN SOLUCIONES
+     </p>
+     <span>
+      UN PROCESO CLARO
+     </span>
+    </div>
+    <div class="serviciosProcesoGrid">
+     <article>
+      <span>
+       01
+      </span>
+      <h3>
+       Escuchamos
+      </h3>
+      <p>
+       Entendemos qu&eacute; quieres lograr, a qui&eacute;n va dirigido y qu&eacute; problema necesitas resolver.
+      </p>
+     </article>
+     <article>
+      <span>
+       02
+      </span>
+      <h3>
+       Planeamos
+      </h3>
+      <p>
+       Definimos las funciones principales y organizamos la informaci&oacute;n antes de construir.
+      </p>
+     </article>
+     <article>
+      <span>
+       03
+      </span>
+      <h3>
+       Dise&ntilde;amos
+      </h3>
+      <p>
+       Preparamos una experiencia visual clara, coherente y adaptable a distintas pantallas.
+      </p>
+     </article>
+     <article>
+      <span>
+       04
+      </span>
+      <h3>
+       Mejoramos
+      </h3>
+      <p>
+       Revisamos la propuesta y ajustamos los detalles para que sea m&aacute;s f&aacute;cil de entender y usar.
+      </p>
+     </article>
+    </div>
+   </section>
+   <section class="franjaCta">
+    <div>
+     <p class="etiqueta">
+      CONSTRUYAMOS ALGO JUNTOS
+     </p>
+     <h2>
+      Tu idea puede ser el
+      <em>
+       inicio.
+      </em>
+     </h2>
+    </div>
+    <a class="boton botonCian" href="contacto.html">
+     Contactar
+     <span>
+     </span>
+    </a>
+   </section>
+  </main>
+  <section class="rr-universo" aria-label="SOLUCIONES A TU MEDIDA">
+   <div class="rr-universo-head">
+    <div><span class="rr-eyebrow">SOLUCIONES A TU MEDIDA</span><h2>El servicio correcto<br/>para cada reto.</h2></div>
+    <p>Desde una página web hasta una herramienta interactiva, convertimos objetivos en soluciones digitales claras.</p>
+   </div>
+   <div class="rr-feature-grid">
+    <article class="rr-feature-card"><img class="rr-feature-image" src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=720&q=80" alt="Portátil con código" loading="lazy"/><span class="rr-feature-icon" aria-hidden="true">✳</span><h3>Páginas y plataformas web</h3><p>Creamos sitios modernos, adaptables y fáciles de mantener.</p><span class="rr-feature-tag">01 / DESARROLLO</span></article>
+    <article class="rr-feature-card"><img class="rr-feature-image" src="https://images.unsplash.com/photo-1558655146-9f40138edfeb?auto=format&fit=crop&w=720&q=80" alt="Composición de diseño" loading="lazy"/><span class="rr-feature-icon" aria-hidden="true">⌘</span><h3>Interfaces con propósito</h3><p>Diseñamos la experiencia para que el contenido sea claro y cada acción tenga sentido.</p><span class="rr-feature-tag">02 / DISEÑO</span></article>
+    <article class="rr-feature-card"><img class="rr-feature-image" src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=720&q=80" alt="Persona aprendiendo tecnología" loading="lazy"/><span class="rr-feature-icon" aria-hidden="true">◈</span><h3>Aprender mientras creamos</h3><p>Explicamos las decisiones técnicas y ayudamos a entender cómo funciona cada parte.</p><span class="rr-feature-tag">03 / ACOMPAÑAMIENTO</span></article>
+   </div>
+  </section>
+  <footer class="pie">
+   <a class="marca" href="index.html">
+    <span class="marcaIcono">
+     R
+     <span>
+      R
+     </span>
+    </span>
+    <span>
+     RR STUDIO
+     <small>
+      DESARROLLO DIGITAL
+     </small>
+    </span>
+   </a>
+   <p>
+    Desarrollo de software y soluciones digitales.
+   </p>
+   <div>
+    <a href="nosotros.html">
+     Nosotros
+    </a>
+    <a href="clientes.html">
+     Proyectos
+    </a>
+    <a href="contacto.html">
+     Contacto
+    </a>
+   </div>
+   <small>
+    &copy; 2026 RR Studio &middot; Proyecto educativo demostrativo
+   </small>
+  </footer>
+ </body>
 </html>
+
